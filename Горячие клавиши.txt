@@ -1,0 +1,16 @@
+Ctrl+f- открытие строки.
+$x(
+$x('//*[@id="adfox_sidebar"]/a/img')
+
+
+console.log('Вид животного:', pm.variables.get("species__name"));
+console.log('Порода:', pm.variables.get("breed__code"));
+console.log('Пол:', pm.variables.get("gender__code"));
+console.log('Возраст:', pm.variables.get("age"));
+console.log('__________________________________________________');
+
+
+Windows 10 Pro
+21H2
+
+Версия 107.0.5304.122 (Официальная сборка), (64 бит)
